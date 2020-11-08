@@ -1,15 +1,20 @@
 body
 {
   background-color: white;
+  margin: 0;
+  padding: 0;
 }
+
 
 header
 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 3px solid blue;
-  height: 200px;
+/*  border: 3px solid blue;*/
+  height: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
 
 }
 
@@ -17,12 +22,12 @@ header
 {
   width: 160px;
   height: 90px;
-  border: 3px solid green;
+/*  border: 3px solid green;*/
 }
 
 nav ul
 {
-  border: 3px solid green;
+/*  border: 3px solid green;*/
   list-style-type: none;
   display: flex;
 }
@@ -30,15 +35,28 @@ nav ul
 nav li
 {
   margin-right: 15px;
+
+}
+
+nav a
+{
+  text-decoration: none;
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
   font-weight: 100;
+  color: rgba(0,0,0,0.5);
+}
+
+nav a:hover{
+  color: #FFB6C1;
+
 }
 
 .slider
 {
   height: 500px;
-  border: 3px solid pink;
+  border-top: 3px solid pink;
+  border-bottom: 3px solid pink;
   background-image: url("img/slider_exemple.jpg");
   background-repeat: no-repeat;
   background-size: cover;
