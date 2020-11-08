@@ -114,7 +114,6 @@ font-weight: 100;
   object-fit: fill;
   width: 250px;
   height: 245px;
-  border: 2px solid pink;
 }
 
 footer
@@ -132,11 +131,20 @@ footer
 {
   width: 250px;
   height: 150px;
-  border: 3px solid black;
+  text-align: center ;
 }
 
+.footer_widget a
+{
 
 
+}
+
+footer img
+{
+  width: 250px;
+  height: 150px;
+}
 
 /*log in page styling*/
 
