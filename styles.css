@@ -103,18 +103,20 @@ font-weight: 100;
 
 .produit
 {
+
+
+}
+
+img
+{
   width: 250px;
   height: 245px;
   margin: 20px 20px 20px 20px;
-  display: flex;
-}
-
-.produit img
-{
+  /*
   object-fit: fill;
   width: 250px;
   height: 245px;
-  border: 2px solid pink;
+  border: 2px solid pink;*/
 }
 
 footer
