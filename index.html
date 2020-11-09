@@ -31,7 +31,25 @@
         <a href="diy.html" class="internal_button">Créez vos propres produits</a>
     </div>
 
+    <div class="filters">
+          <form action="filters.php" method="post" class="filters_products">
+              <label for="">Prix :</label>
+              <input type="range" name="range_filter" min="5" max="25" step="5">
+              <label for="">Chercher :</label>
+              <input type="search" name="search_filter" id="">
+              <label for="">Vert</label>
+              <input type="checkbox">
+              <label for="">Noir</label>
+              <input type="checkbox">
+              <label for="">Jaune</label>
+              <input type="checkbox">
+              <label for="">bleu</label>
+              <input type="checkbox">
+          </form>
+    </div>
+
     <section class="main_section">
+
         <div class="produits">
 
             <div class="produit"><img src="img/produits/mini/mini_item1.png" alt=""></div>

@@ -84,6 +84,26 @@ font-weight: 100;
   align-items: center;
 }
 
+.filters
+{
+  height: 100px;
+  background-color: #F4F4F4;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.filters_products
+{
+height: 30px;
+}
+
+.filters_products input
+{
+  margin-right: 10px;
+}
+
 .produits
 {
   display: flex;
@@ -148,7 +168,7 @@ footer img
 
 /*log in page styling*/
 
-form
+.form_log_in
 {
   display: flex;
   justify-content: center;
@@ -162,14 +182,14 @@ form
   box-shadow: 4px 4px 4px pink;
 }
 
-form h1
+.form_log_in h1
 {
   font-size: 30px;
   text-transform: capitalize;
 }
 
 
-form input
+.form_log_in input
 {
   border: none;
   border-bottom: 1px solid grey;
@@ -180,13 +200,19 @@ form input
 
 }
 
-form input:focus{
+.form_log_in input:focus{
   outline: none;
   border-bottom: 2px solid pink;
 }
 
-form a
+.form_log_in a
 {
   font-size: 12px;
-  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.log_in_button
+{
+  background-color: pink;
+  margin-top: 10px;
 }
